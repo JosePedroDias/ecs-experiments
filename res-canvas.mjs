@@ -16,7 +16,8 @@ export class Canvas {
         this.ctx.clearRect(0, 0, ...this.dims);
     }
 
-    setPixel([x, y]) {
+    setPixel(x, y, isBlack) {
+        this.ctx.fillStyle = isBlack ? 'black' : 'white';
         this.ctx.fillRect(x, y, 1, 1);
     }
 }
