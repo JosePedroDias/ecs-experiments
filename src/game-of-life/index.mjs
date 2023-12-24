@@ -5,11 +5,11 @@ import {
     pipe,
     //defineSerializer,
     //defineDeserializer,
-} from 'https://cdn.jsdelivr.net/npm/bitecs@0.3.40/+esm';
+} from '../../vendor/bitecs/index.mjs';
 
 import { Canvas } from './res-canvas.mjs';
 
-import { wrap } from './utils.mjs';
+import { wrap } from '../utils.mjs';
 
 import { Position, Conway } from './components.mjs';
 

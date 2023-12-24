@@ -1,7 +1,7 @@
 import {
     Types,
     defineComponent,
-} from 'https://cdn.jsdelivr.net/npm/bitecs@0.3.40/+esm';
+} from '../../vendor/bitecs/index.mjs';
 
 ////
 
